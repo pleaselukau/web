@@ -1,0 +1,96 @@
+/*Please Lukau*/
+body, header, nav{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: white;
+}
+footer{
+	background-color:#8B008B;
+}
+
+/*BODY*/
+body{
+	margin : 10;
+	text-align: center;
+    background-color:#D8BFD8;
+}
+.column{
+	padding: 2%;
+	color: black;
+	font-weight: bold;
+	column-count: 3;
+}
+.intro{
+	color : white;
+	font-weight:bold;
+}
+/*NAV*/
+.navbar{
+	background-color:#8B008B;
+	color: white;	
+}
+.navbar-nav a:hover{
+	background-color:#D8BFD8;
+}
+.active{
+	background-color:#D8BFD8;
+}
+/*IMAGES*/
+.sunset{
+    margin-left: 25%;
+float: inline;
+}
+.meme{
+	padding : 3%;
+}
+.kid{
+	margin-left: 35%;
+float: inline;
+}
+.pic{
+	column-count: 3;
+	padding: 2%;
+}
+/*LISTS*/
+
+ol{
+    list-style-type: upper-roman;
+    font-family: "Dancing Script", sans-serif;
+}
+dl{
+    font-family: "Ubuntu", sans-serif;
+}
+dt{
+color: #8B008B;
+text-decoration: underline overline;
+padding: 2%;
+}
+
+/*LINKS*/
+a:link, a:visited{
+    color: white;
+    font-weight: bold;
+}
+a:hover{
+    color: black;
+}
+
+aside{
+	padding-left: 2%;
+	padding-right: 2%;
+    display: block;
+    float: left;
+    background-color:blanchedalmond;
+    color: black;
+}
+@media screen and (min-width : 480px){
+    background-image: linear-gradient (to right, silver, gold);
+    /*second style rule*/
+    font-size: 20px;
+}
+@media screen and (min-width : 150px){
+    img{
+        text-align: left;
+        display: block;
+    }}
